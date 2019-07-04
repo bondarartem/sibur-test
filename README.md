@@ -1,3 +1,3 @@
 <p>Демонстрация задания по ссылке:</p>
 
-<h3>https://github.com</h3>
+<h3>http://bondarartem.github.io/sibur-test</h3>
