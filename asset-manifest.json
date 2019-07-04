@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sibur-test/static/css/main.4c548a4c.chunk.css",
+    "main.js": "/sibur-test/static/js/main.dda5b671.chunk.js",
+    "main.js.map": "/sibur-test/static/js/main.dda5b671.chunk.js.map",
+    "runtime~main.js": "/sibur-test/static/js/runtime~main.14dc3b4e.js",
+    "runtime~main.js.map": "/sibur-test/static/js/runtime~main.14dc3b4e.js.map",
+    "static/js/2.209c49bb.chunk.js": "/sibur-test/static/js/2.209c49bb.chunk.js",
+    "static/js/2.209c49bb.chunk.js.map": "/sibur-test/static/js/2.209c49bb.chunk.js.map",
+    "index.html": "/sibur-test/index.html",
+    "precache-manifest.345b4002d4a537130ff68d2a2a6dd247.js": "/sibur-test/precache-manifest.345b4002d4a537130ff68d2a2a6dd247.js",
+    "service-worker.js": "/sibur-test/service-worker.js",
+    "static/css/main.4c548a4c.chunk.css.map": "/sibur-test/static/css/main.4c548a4c.chunk.css.map",
+    "static/media/index.css": "/sibur-test/static/media/FuturaPTBook.99541f31.otf",
+    "static/media/app.css": "/sibur-test/static/media/bg.7bc45813.png"
+  }
+}
