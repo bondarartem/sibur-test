@@ -1,0 +1,21 @@
+.main {
+    margin-left: 30vh;
+    margin-right: 30vh;
+    height: 100vh;
+    background-color:rgba(0,0,0, 0.6);
+    border-radius: 10px;
+    background-color: #008c95bb;
+
+    display: flex;
+    align-items: center;
+}
+
+.main p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 24px;
+    color: rgb(17, 17, 17);
+    margin-top: -5rem;
+}

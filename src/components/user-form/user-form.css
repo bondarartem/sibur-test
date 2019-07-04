@@ -1,0 +1,28 @@
+.user-div {
+    margin-left: 40vh;
+    margin-right: 40vh;
+    height: 100vh;
+}
+
+.user-form {
+    margin-top: 10vh;
+    margin-bottom: auto;    
+}
+
+.el {
+    margin-top: 10px;
+}
+
+label {
+    color: black;
+}
+
+.btn {
+    float: right;
+    width: 30vh;
+    height: 10vh;
+}
+
+#fio {
+    text-transform: capitalize;
+}
