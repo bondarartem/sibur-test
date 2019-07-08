@@ -10,7 +10,7 @@
 }
 
 .el {
-    margin-top: 10px;
+    margin-top: 2vh;
 }
 
 label {
@@ -25,4 +25,24 @@ label {
 
 #fio {
     text-transform: capitalize;
+}
+.form-control {
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.alert {
+    position: relative; /* Относительное позиционирование */
+    top: -22vh; /* Положение от верхнего края */
+    left: 0vh;
+    right:50vh;
+    width: auto;
+    z-index: 1;
+}
+
+.alert ul {
+    list-style-type:none;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Pager } from 'react-bootstrap';
+import Pager from 'react-bootstrap/Pager';
 
 import ReactPageScroller from 'react-page-scroller';
 

@@ -1,7 +1,7 @@
 .btn-link {
     color: black;
     font-family: FuturaPTBook, sans-serif;
-    font-size: 1.2em;
+    font-size: 2vh;
 }
 
 .btn-link:hover {
@@ -10,8 +10,9 @@
 
 .navbar-ul {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 30vh;
 }
+
 .navbar-brand {
     margin-left: 30vh;
 }
