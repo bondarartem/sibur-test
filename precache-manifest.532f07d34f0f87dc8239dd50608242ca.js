@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09e8a8e331e13654ce693e83828acadf",
+    "revision": "a53b175b1d568134648acfaf3b7bd10f",
     "url": "/sibur-test/index.html"
   },
   {
-    "revision": "7d0eebd987df903af4f2",
-    "url": "/sibur-test/static/css/main.8bc24db7.chunk.css"
+    "revision": "b2818f128b6c316aceba",
+    "url": "/sibur-test/static/css/main.ff8832f8.chunk.css"
   },
   {
     "revision": "021b322f7599bf4a4906",
     "url": "/sibur-test/static/js/2.a8280d66.chunk.js"
   },
   {
-    "revision": "7d0eebd987df903af4f2",
-    "url": "/sibur-test/static/js/main.6a811a00.chunk.js"
+    "revision": "b2818f128b6c316aceba",
+    "url": "/sibur-test/static/js/main.11ede6d7.chunk.js"
   },
   {
     "revision": "4de3fe71f086b55d35e9",
