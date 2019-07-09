@@ -23,38 +23,11 @@
 }
 
 .choose-block {
-    margin-top: 45vh;
-    margin-left: 6vh;
-    margin-right: 6vh;
-    padding-left: 0;
-    padding-top: 5px;
-    text-align: center;
-
-    height: 17vh;
+    margin-top: 55vh;
+    margin-left: 1vh;
+    
+    transform: rotate(90deg);
     position: fixed;
-    top: 0px;
-    list-style-type: none;
-    justify-content: left;
-    width: 18vh;
-    border-color: #005358;
-    border-style: solid;
-    border-radius: 1vh;
-    border-width: 0.5px;
+    top: 0;
 }
 
-.choose-block a {
-    font-size: 2vh;
-}
-
-.pager-item-container a {
-    color: #006e74;
-}
-
-.cur-item a {
-    font-size: 3vh;
-    color: #00494d;
-}
-
-.pager-item-container {
-    margin-bottom: 2vh;
-}

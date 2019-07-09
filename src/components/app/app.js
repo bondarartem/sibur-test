@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pager from 'react-bootstrap/Pager';
+import {Pagination} from 'react-bootstrap';
 
 import ReactPageScroller from 'react-page-scroller';
 
@@ -31,29 +31,18 @@ export default class App extends Component {
         const pageNumbers = [];
 
         const pageTitles = [
-            'Начало',
-            'Середина',
-            'Форма'
+            '',
+            '',
+            ''
         ];
 
         for (let i = 1; i <= 3; i++) {
-
-            let className = '';
-
-            if (i===this.state.currentPage) {
-                className += 'cur-item';
-            }
-
             pageNumbers.push(
-                <div 
-                    key={i*10}
-                    className='pager-item-container'>
-                    <Pager.Item 
+                    <Pagination.Item 
                                 key={i} 
-                                eventKey={i - 1} 
-                                onSelect={this.goToPage}
-                                className={className}>{pageTitles[i-1]}</Pager.Item>
-                </div>
+                                onClick={this.goToPage.bind(this, i-1)}
+                                active={i === this.state.currentPage}>
+                                {pageTitles[i-1]}</Pagination.Item>
             )
         }
 
@@ -72,9 +61,7 @@ export default class App extends Component {
                         <MainBlock />
                         <UserForm />
                     </ReactPageScroller>
-                    <Pager className="choose-block" bsSize="large">
-                        {pagesNumbers}
-                    </Pager>
+                    <Pagination className="choose-block">{pagesNumbers}</Pagination>
                 </div>
         </React.Fragment>
     }

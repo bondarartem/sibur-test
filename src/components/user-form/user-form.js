@@ -27,7 +27,7 @@ export default class UserForm extends Component {
 
     handleFioChange (event) {
         const value = this.capitalizeText(event.target.value);
-        
+        console.log(value);
         this.setState({fio: value});
     }
     handleEmailChange (event) {
@@ -56,15 +56,24 @@ export default class UserForm extends Component {
     }
 
     capitalizeText (str) {
-            return str.replace(/\w\S*/g, function (txt) {return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();})
+        var splitStr = str.toLowerCase().split(' ');
+        for (var i = 0; i < splitStr.length; i++) {
+            splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+        }
+        return splitStr.join(' ')
     }
 
     
 
     render() {
+        let className = "user-div "
+        if (this.state.showAlert) {
+                className += "blur-form";
+        }
 
         return (
-            <div className="user-div">
+        <div className="parent-form">
+            <div className={className}>
                 <form className="user-form" ref="userForm">
                     <label  htmlFor="fio"
                             className="el"
@@ -116,14 +125,16 @@ export default class UserForm extends Component {
                     />
 
                     <button 
-                            className="btn btn-success el"
+                            className="btn btn-success el send-button"
                             onClick={this.showData}
                     >Отправить</button>
 
                 </form>
+                
+                </div>
                 <div className="alert">
                         <Alert show={this.state.showAlert} variant="success">
-                                <Alert.Heading>Все успешно!</Alert.Heading>
+                                <Alert.Heading className="alert-heading"><b>Все успешно!</b></Alert.Heading>
                                 <ul><li>
                                         Ваши ФИО: {this.state.fio}
                                 </li>

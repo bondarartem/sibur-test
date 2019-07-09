@@ -4,8 +4,9 @@
     height: 100vh;
 }
 
+
 .user-form {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: auto;    
 }
 
@@ -14,19 +15,23 @@
 }
 
 label {
+    font-size: 2vh;
     color: black;
 }
 
-.btn {
+.send-button {
     float: right;
     width: 30vh;
-    height: 10vh;
+    height: 5vh;
+    font-size: 2vh;
 }
 
 #fio {
     text-transform: capitalize;
 }
+
 .form-control {
+    height: 5vh;
     margin: 0;
 }
 
@@ -35,14 +40,26 @@ textarea {
 }
 
 .alert {
-    position: relative; /* Относительное позиционирование */
-    top: -22vh; /* Положение от верхнего края */
-    left: 0vh;
-    right:50vh;
+    position: absolute; 
+    top: 107vh;
+    left: 15vh;
+    right: 15vh;
     width: auto;
-    z-index: 1;
+    z-index: 100;
+}
+
+.alert-heading {
+    font-size: 4vh;
 }
 
 .alert ul {
+    font-size: 3vh;
     list-style-type:none;
+}
+
+.blur-form {
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    opacity: 0.6;
 }
