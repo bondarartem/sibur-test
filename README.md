@@ -5,5 +5,5 @@
 <h3>http://bondarartem.github.io/sibur-test</h3>
 
 
-<p><i>CodeSandbox:</i></p>
+<p><i>CodeSandbox: (картинки и шрифты не подгружаются)</i></p>
 <h3>https://4ykss.codesandbox.io/</h3>
