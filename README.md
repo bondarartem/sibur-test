@@ -5,5 +5,5 @@
 <h3>http://bondarartem.github.io/sibur-test</h3>
 
 
-<p><i>Github:</i></p>
+<p><i>CodeSandbox:</i></p>
 <h3>https://4ykss.codesandbox.io/</h3>
