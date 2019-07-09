@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sibur-test/static/css/main.ff8832f8.chunk.css",
-    "main.js": "/sibur-test/static/js/main.11ede6d7.chunk.js",
-    "main.js.map": "/sibur-test/static/js/main.11ede6d7.chunk.js.map",
+    "main.css": "/sibur-test/static/css/main.6c508e72.chunk.css",
+    "main.js": "/sibur-test/static/js/main.16c8994d.chunk.js",
+    "main.js.map": "/sibur-test/static/js/main.16c8994d.chunk.js.map",
     "runtime~main.js": "/sibur-test/static/js/runtime~main.14dc3b4e.js",
     "runtime~main.js.map": "/sibur-test/static/js/runtime~main.14dc3b4e.js.map",
-    "static/js/2.a8280d66.chunk.js": "/sibur-test/static/js/2.a8280d66.chunk.js",
-    "static/js/2.a8280d66.chunk.js.map": "/sibur-test/static/js/2.a8280d66.chunk.js.map",
+    "static/js/2.eafe06ae.chunk.js": "/sibur-test/static/js/2.eafe06ae.chunk.js",
+    "static/js/2.eafe06ae.chunk.js.map": "/sibur-test/static/js/2.eafe06ae.chunk.js.map",
     "index.html": "/sibur-test/index.html",
-    "precache-manifest.532f07d34f0f87dc8239dd50608242ca.js": "/sibur-test/precache-manifest.532f07d34f0f87dc8239dd50608242ca.js",
+    "precache-manifest.b5da83d55b56586039b8683d894d7fe5.js": "/sibur-test/precache-manifest.b5da83d55b56586039b8683d894d7fe5.js",
     "service-worker.js": "/sibur-test/service-worker.js",
-    "static/css/main.ff8832f8.chunk.css.map": "/sibur-test/static/css/main.ff8832f8.chunk.css.map",
+    "static/css/main.6c508e72.chunk.css.map": "/sibur-test/static/css/main.6c508e72.chunk.css.map",
     "static/media/index.css": "/sibur-test/static/media/FuturaPTBook.99541f31.otf",
     "static/media/app.css": "/sibur-test/static/media/bg.7bc45813.png"
   }
